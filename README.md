@@ -1,7 +1,7 @@
 # jsonParser
-Its a Spark based custom json to csv convertor, must be used of learning purpose only and cannot be used for any evil causes.
+Its a Spark based custom json to csv convertor, must be used for learning purpose only and cannot be used for any evil causes.
 
-PLease copy the hadoop and CustomJsonParser folder in your system C drive.
+Please copy the hadoop and CustomJsonParser folder in your system C drive.
 
 Command line arguments:
 1. Input file name or directory name with .*json wild card.
