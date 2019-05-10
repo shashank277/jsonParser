@@ -1,0 +1,810 @@
+﻿{
+		"serviceHeader": {
+			"brand": "ABC",
+			"identifier": "ABC0710159",
+			"userId": "TEST_DUMMY",
+			"dataSource": "AAA"
+		},
+		"data": {
+			"reviewCase": {
+				"division": "Banking",
+				"bin": "10000000",
+				"portfolioCode": "20000",
+				"caseStatus": "Complete",
+				"caseDecision": null,
+				"reasonForDecision": null,
+				"resolveOnshoreExcp": null,
+				"nextAnnualReviewDT": null,
+				"rmName": "TEST_USER",
+				"accountOpenDate": null,
+				"caseSubmitDate": "2009-01-01 13:00:00",
+				"staffStartDate": "2009-01-01 13:00:00",
+				"staffSubmitDate": null,
+				"currencyAccount": null,
+				"isSwitchRequired": null,
+				"sourceRefNum": null,
+				"existingRiskRate": false,
+				"existingPep": null,
+				"transactionReviewComplete": null,
+				"archivalDateTime": null,
+				"lastUpdateUser": "TESTDUMMY1",
+				"lastUpdateTimeStamp": "2009-01-01 14:05:19",
+				"retentionCode": "AB1100",
+				"reviewOriginSystem": "CCB",
+				"keyStage": "Resolve Exceptions",
+				"preferredOnlineAccess": null,
+				"populationGroup": "Done",
+				"reviewEvents": [{
+						"eventID": 10000,
+						"caseReferenceNumber": "ABC0710159",
+						"createDate": "2009-01-01 13:47:53",
+						"alertDate": "2009-01-01 13:48:08",
+						"eventType": "QQQ-Change in Regulations, RBS policy or Risk appetite",
+						"eventSubType": "QQQ.1-Change in local / global regulations",
+						"alertCategory": "Manual",
+						"alertSourceSystem": "Internal",
+						"addressChangeType": null,
+						"eventDescription": "desc",
+						"initiatorName": "TESTDUMMY1",
+						"lastUpdateUser": "TESTDUMMY1",
+						"lastUpdateTime": "2009-01-01 14:05:19",
+						"details": [],
+						"freeForm": null
+					}, {
+						"eventID": 20000,
+						"caseReferenceNumber": "ABC0710159",
+						"createDate": "2009-01-01 14:04:47",
+						"alertDate": "2009-01-01 14:04:47",
+						"eventType": "Change in Trading Activity",
+						"eventSubType": "Change in trading",
+						"alertCategory": "Data Change",
+						"alertSourceSystem": "Internal",
+						"addressChangeType": null,
+						"eventDescription": "Company mechanical properties of materials, non-elect",
+						"initiatorName": null,
+						"lastUpdateUser": "TESTDUMMY1",
+						"lastUpdateTime": "2009-01-01 14:05:19",
+						"details": [{
+								"id": 2741,
+								"caseReferenceNumber": "ABC0710159",
+								"party": "EntityBEECH",
+								"partyId": 12000,
+								"newData": "Packer and mechanical properties of materials, non-elect",
+								"lastUpdateUser": "TESTDUMMY1",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:19"
+							}
+						],
+						"freeForm": null
+					}, {
+						"eventID": 30000,
+						"caseReferenceNumber": "ABC0710159",
+						"createDate": "2009-01-01 14:04:47",
+						"alertDate": "2009-01-01 14:04:47",
+						"eventType": "3.7-Change to Name/Entity",
+						"eventSubType": "3.7.5-Change in SC",
+						"alertCategory": "Data Change",
+						"alertSourceSystem": "Internal",
+						"addressChangeType": null,
+						"eventDescription": "Company structure",
+						"initiatorName": null,
+						"lastUpdateUser": "TESTDUMMY1",
+						"lastUpdateTime": "2009-01-01 14:05:19",
+						"details": [{
+								"id": 3501,
+								"caseReferenceNumber": "ABC0710159",
+								"party": "EntityBEECH",
+								"partyId": 12000,
+								"oldData": "TEST",
+								"newData": "TEST 15",
+								"lastUpdateUser": "TESTDUMMY1",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:19"
+							}
+						],
+						"freeForm": null
+					} 
+				],
+				"appendReviewEvents": null,
+				"caseCompletionDate": null
+			},
+			"kyc": {
+				"individuals": [{
+						"id": 13501,
+						"caseReferenceNumber": "ABC0710159",
+						"partyName": "DD JJ GG",
+						"title": "MR",
+						"firstName": "DD",
+						"middleName": "JJ",
+						"surname": "GG",
+						"fullName": "DD GG",
+						"birthDate": "1959-09-30",
+						"persona": "B3",
+						"email": "tg@bh.co.uk",
+						"countryCode": "+44",
+						"contactMobile": "01234567899",
+						"isPointOfContact": false,
+						"notLinked": false,
+						"ekycFlag": "E",
+						"fromBureau": false,
+						"countryOfBirth": "UNITED KINGDOM",
+						"nationality": "UNITED KINGDOM",
+						"financialOwnership": "3",
+						"registeredTaxOutsideUk": false,
+						"signMoreThan50K": true,
+						"positions": ["Donor","Practitioner"],
+						"presentPreviousAddresses": [{
+								"id": 71995,
+								"line1": "QBC HOUSE",
+								"line2": "GALA",
+								"line3": "SELLA",
+								"country": "UNITED KINGDOM",
+								"postCode": "ABC ABC",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}
+						],
+						"lastUpdateUser": "TEST",
+						"lastUpdateTimeStamp": "2009-01-01 14:05:15",
+						"exceptions": [{
+								"id": 12540,
+								"code": "AF99",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "KP Individual JBEECH has been added",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 12541,
+								"code": "QQQ",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "This service failed",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 12542,
+								"code": "FFREE",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "This verification service failed",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}
+						],
+						"pepMMerApplied": false,
+						"portfolioCode": "25057",
+						"franchise": "Banking",
+						"bin": "222222222222",
+						"vMMerApplied": true
+					}, {
+						"id": 12743,
+						"caseReferenceNumber": "ABC0710159",
+						"partyName": "LL WW GGT",
+						"title": "MR",
+						"firstName": "LL",
+						"middleName": "WW",
+						"surname": "GGT",
+						"fullName": "LL GGT",
+						"birthDate": "1982-10-21",
+						"persona": "C3",
+						"email": "LG@BH.co.uk",
+						"countryCode": "+44",
+						"contactMobile": "01324536641",
+						"isPointOfContact": true,
+						"notLinked": false,
+						"ekycFlag": "E",
+						"fromBureau": false,
+						"countryOfBirth": "UNITED KINGDOM",
+						"nationality": "UNITED KINGDOM",
+						"registeredTaxOutsideUk": false,
+						"votingOwnership": "100",
+						"financialOwnership": "25",
+						"signMoreThan50K": true,
+						"positions": ["Partner", "Other (SIGNATORY)"],
+						"presentPreviousAddresses": [{
+								"id": 71996,
+								"line1": "A HALL",
+								"line2": "AV LANE",
+								"line3": "HAS",
+								"line4": "ORMK",
+								"country": "UNITED KINGDOM",
+								"postCode": "RRR 3E4",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}
+						],
+						"lastUpdateUser": "TEST",
+						"lastUpdateTimeStamp": "2009-01-01 14:05:15",
+						"exceptions": [{
+								"id": 12543,
+								"code": "AF99",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "KP Individual SJ has been added",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 12544,
+								"code": "QQQ",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "This exception has been raised against Individual(s): SJ, CIFAS service failed",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 12545,
+								"code": "FFREE",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "This exception has been raised against Individual(s): SJ, Identity verification service failed",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}
+						],
+						"pepMMerApplied": false,
+						"portfolioCode": "25057",
+						"franchise": "Banking",
+						"bin": "SJ19666666",
+						"vMMerApplied": true
+					}, {
+						"id": 12744,
+						"caseReferenceNumber": "ABC0710159",
+						"partyName": "MM JJ GGT",
+						"title": "MR",
+						"firstName": "MM",
+						"middleName": "JJ",
+						"surname": "GGT",
+						"fullName": "MM GGT",
+						"birthDate": "1957-12-08",
+						"persona": "B3",
+						"email": "MG@gmail.com",
+						"countryCode": "+44",
+						"contactMobile": "9876543210",
+						"notLinked": false,
+						"ekycFlag": "E",
+						"fromBureau": false,
+						"gender": "male",
+						"countryOfBirth": "UNITED KINGDOM",
+						"nationality": "UNITED KINGDOM",
+						"financialOwnership": "10",
+						"registeredTaxOutsideUk": true,
+						"personalAccount": false,
+						"memorableWord": "UNITED KINGDOM",
+						"positions": ["Partner", "Significant Controller","Other (SIGNATORY)"],
+						"presentPreviousAddresses": [{
+								"id": 71997,
+								"line1": "GG HOUSE",
+								"line2": "GALA",
+								"line3": "SELK",
+								"line4": "",
+								"country": "UNITED KINGDOM",
+								"postCode": "TTT SE4",
+								"addrMovedDate": "2018-09-01",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 71998,
+								"line1": "GG HOUSE",
+								"line2": "GALA",
+								"line3": "SELK",
+								"line4": "SELK",
+								"country": "UNITED KINGDOM",
+								"postCode": "TTT SE4",
+								"addrMovedDate": "2017-09-01",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 71999,
+								"line1": "kp2 prev2 add1",
+								"line2": "kp2 prev2 add2",
+								"country": "UNITED KINGDOM",
+								"postCode": "SSSWWQ",
+								"addrMovedDate": "2016-11-01",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 72000,
+								"line1": "kp2 prev3 add1",
+								"line2": "kp2 prev3 add2",
+								"country": "UNITED KINGDOM",
+								"postCode": "SSSWWQ",
+								"addrMovedDate": "2006-12-01",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}
+						],
+						"lastUpdateUser": "TEST",
+						"lastUpdateTimeStamp": "2009-01-01 14:05:15",
+						"exceptions": [{
+								"id": 12546,
+								"code": "AF99",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "KP Individual pk has been added",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 12547,
+								"code": "QQQ",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "This exception has been raised against Individual(s):   pk, CIFAS service failed",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 12548,
+								"code": "FFREE",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "This exception has been raised against Individual(s):   pk, Identity verification service failed",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}
+						],
+						"portfolioCode": "447777",
+						"franchise": "Banking",
+						"vMMerApplied": false
+					}, {
+						"id": 12745,
+						"caseReferenceNumber": "ABC0710159",
+						"partyName": "ML JJ  GGT",
+						"firstName": "ML",
+						"surname": "GGT",
+						"middleName": "JJ",
+						"fullName": "ML GGT",
+						"birthDate": "1987-09-01",
+						"ekycFlag": "E",
+						"fromBureau": true,
+						"gender": "male",
+						"countryOfBirth": "UNITED KINGDOM",
+						"nationality": "UNITED KINGDOM",
+						"financialOwnership": "25",
+						"positions": ["Partner","Other (SIGNATORY)"],
+						"presentPreviousAddresses": [{
+								"id": 71996,
+								"line1": "47 WEBB",
+								"line2": "STRR",
+								"line3": "MERE",
+								"line4": "",
+								"country": "UNITED KINGDOM",
+								"postCode": "112333",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}
+						],
+						"lastUpdateUser": "TEST",
+						"lastUpdateTimeStamp": "2009-01-01 14:05:15",
+						"exceptions": [],
+						"portfolioCode": "225566",
+						"franchise": "Banking"
+					}, {
+						"id": 12746,
+						"caseReferenceNumber": "ABC0710159",
+						"partyName": "WE DD GGT",
+						"firstName": "WE",
+						"surname": "GGT",
+						"middleName": "DD",
+						"fullName": "WE GGT",
+						"birthDate": "1951-10-30",
+						"ekycFlag": "E",
+						"fromBureau": true,
+						"votingOwnership": "100",
+						"financialOwnership": "16",
+						"positions": ["Partner","Other (SIGNATORY)"],
+						"presentPreviousAddresses": [{
+								"id": 71986,
+								"line1": "LG HOUSE",
+								"line2": "GALA",
+								"line3": "DELLA",
+								"line4": "",
+								"country": "UNITED KINGDOM",
+								"postCode": "TTT 444",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}
+						],
+						"lastUpdateUser": "TEST",
+						"lastUpdateTimeStamp": "2009-01-01 14:05:15",
+						"exceptions": [],
+						"portfolioCode": "25057",
+						"franchise": "Commercial Banking"
+					}
+				],
+				"companies": [{
+						"id": 12747,
+						"partyName": "TEST LIMITED",
+						"caseReferenceNumber": "ABC0710159",
+						"persona": "F1",
+						"tradeStartDate": "1988-11-30",
+						"countryOfIncorporation": "UNITED KINGDOM",
+						"taxOutsideUk": false,
+						"notLinked": false,
+						"ekycFlag": "E",
+						"fromBureau": false,
+						"financialOwnership": "0",
+						"positions": ["Relevant Beneficial Owner"],
+						"presentPreviousAddresses": [],
+						"tradingAddress": {
+							"id": 72001,
+							"line1": "RR SCIENCE R",
+							"line2": "MOUNT PLEASANT",
+							"line3": "GT",
+							"line4": "GT",
+							"country": "UNITED KINGDOM",
+							"postCode": "L3 444",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+						},
+						"lastUpdateUser": "TEST",
+						"lastUpdateTimeStamp": "2009-01-01 14:05:15",
+						"exceptions": [{
+								"id": 12549,
+								"code": "3333",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "KP Company Added SB HOLDINGS (CCDDFF) LTD of BEECH INVESTMENTS KS51 LTD",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 12550,
+								"code": "AQQQQQQQ",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "The exception has been raised",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 12551,
+								"code": "AQQQQQQQ",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "The exception has been raised  ",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 12552,
+								"code": "QWQWQ",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "The exception has been raised a ",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}, {
+								"id": 12553,
+								"code": "QWQWQ",
+								"caseReferenceNumber": "ABC0710159",
+								"details": "The exception has been  LTD",
+								"lastUpdateUser": "TEST",
+								"lastUpdateTimeStamp": "2009-01-01 14:05:15"
+							}
+						],
+						"portfolioCode": "25057",
+						"franchise": "Banking",
+						"bin": "MANCHE LTD"
+					} 
+				]
+			},
+			"kybs": [{
+					"id": 12000,
+					"partyName": "SSDS AAA",
+					"partySubType": "Limited Company",
+					"caseReferenceNumber": "ABC0710159",
+					"tradeStartDate": "2018-01-01",
+					"numberOfEmployees": "22",
+					"trustClassOfBeneficiaries": false,
+					"registeredForTaxNonUk": true,
+					"financialMovement": false,
+					"internationalPayment": true,
+					"registeredInUk": true,
+					"reviewCrn": "10932831",
+					"isCharity": false,
+					"tradingAddressSameAsRegional": true,
+					"haveOtherTradeName": false,
+					"correspondenceAddressChoice": "Registered Address",
+					"annualTurnOver": "£120,001 - £300,000",
+					"pastAccountTurnover": "50",
+					"correspondenceAddressSame": true,
+					"currencyAccountFlag": false,
+					"registrationAddress": {
+						"id": 72005,
+						"line1": "reg Add1",
+						"line2": "TRAWDEN",
+						"country": "UNITED KINGDOM",
+						"postCode": "SSSWWQ",
+						"lastUpdateUser": "TEST",
+						"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+					},
+					"tradingAddress": {
+						"id": 72004,
+						"line1": "reg Add1",
+						"line2": "TRAWDEN",
+						"country": "UNITED KINGDOM",
+						"postCode": "SSSWWQ",
+						"lastUpdateUser": "TEST",
+						"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+					},
+					"correspondenceAddress": {
+						"id": 72006,
+						"line1": "WWQQQ",
+						"line2": "CCDDFF",
+						"country": "UNITED KINGDOM",
+						"postCode": "SSW334",
+						"lastUpdateUser": "TEST",
+						"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+					},
+					"bureauRegistrationAddress": {
+						"id": 72007,
+						"line1": "WWQQQ",
+						"line2": "CCDDFF",
+						"country": "UNITED KINGDOM",
+						"postCode": "SSW334",
+						"lastUpdateUser": "TEST",
+						"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+					},
+					"tradingActivities": [{
+							"id": 6035,
+							"caseReferenceNumber": "ABC0710159",
+							"tradingActivity": "Nursing homes not providing",
+							"boeCode": "AAA",
+							"sicCode": "11.222",
+							"sic2007Code": "222222",
+							"tradingActivityOrder": "1",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16",
+							"details": [{
+									"id": 3604,
+									"caseReferenceNumber": "ABC0710159",
+									"questionId": "104",
+									"questionResponse": true,
+									"questionText": "Does the customer manufacture?",
+									"questionType": "GUPP",
+									"lastUpdateUser": "TEST",
+									"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+								}, {
+									"id": 3603,
+									"caseReferenceNumber": "ABC0710159",
+									"questionId": "30",
+									"questionResponse": true,
+									"questionText": "You have selected a Shipping?",
+									"questionType": "QEP",
+									"lastUpdateUser": "TEST",
+									"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+								}
+							]
+						}, {
+							"id": 6034,
+							"caseReferenceNumber": "ABC0710159",
+							"tradingActivity": "Construction for",
+							"boeCode": "EEE",
+							"sicCode": "AS.12/0/0",
+							"sic2007Code": "22546",
+							"tradingActivityOrder": "1",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16",
+							"details": [{
+									"id": 3602,
+									"caseReferenceNumber": "ABC0710159",
+									"questionId": "37",
+									"questionResponse": true,
+									"questionText": "Is the customer involved?",
+									"questionType": "XDE",
+									"lastUpdateUser": "TEST",
+									"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+								}
+							]
+						}, {
+							"id": 6033,
+							"caseReferenceNumber": "ABC0710159",
+							"tradingActivity": "Packer",
+							"boeCode": "SSS",
+							"sicCode": "11.40/0/0",
+							"sic2007Code": "46833",
+							"tradingActivityOrder": "2",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16",
+							"details": [{
+									"id": 3601,
+									"caseReferenceNumber": "ABC0710159",
+									"questionId": "141",
+									"questionResponse": false,
+									"questionText": "Is the customer a shipping broker?",
+									"questionType": "WEQ",
+									"lastUpdateUser": "TEST",
+									"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+								}, {
+									"id": 3600,
+									"caseReferenceNumber": "ABC0710159",
+									"questionId": "36",
+									"questionResponse": true,
+									"questionText": "Does this customer UK?",
+									"questionType": "AQZ",
+									"lastUpdateUser": "TEST",
+									"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+								}, {
+									"id": 3599,
+									"caseReferenceNumber": "ABC0710159",
+									"questionId": "18",
+									"questionResponse": true,
+									"questionText": "You have selected activities?",
+									"questionType": "NHJ",
+									"lastUpdateUser": "TEST",
+									"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+								}
+							]
+						}, {
+							"id": 6032,
+							"caseReferenceNumber": "ABC0710159",
+							"tradingActivity": "Aletting of",
+							"boeCode": "AAQ",
+							"sicCode": "70.994/2/0",
+							"sic2007Code": "1475",
+							"tradingActivityOrder": "1",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16",
+							"details": [{
+									"id": 3598,
+									"caseReferenceNumber": "ABC0710159",
+									"questionId": "10",
+									"questionResponse": false,
+									"questionText": "Is the customer involved?",
+									"questionType": "CEU",
+									"lastUpdateUser": "TEST",
+									"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+								}
+							]
+						}
+					],
+					"financialEEEW": [{
+							"id": 9064,
+							"caseReferenceNumber": "ABC0710159",
+							"paymentType": "cheques",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+						}
+					],
+					"freeForm": [{
+							"id": 12895,
+							"kybTradeId": null,
+							"caseReferenceNumber": "ABC0710159",
+							"userInput": "london",
+							"freeFormType": "CREATE WWW",
+							"freeFormSubType": "Transaction details - Location",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+						}, {
+							"id": 12896,
+							"kybTradeId": null,
+							"caseReferenceNumber": "ABC0710159",
+							"userInput": null,
+							"freeFormType": "CREATE WWW",
+							"freeFormSubType": "Any Concerns from Bank records",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+						}, {
+							"id": 12897,
+							"kybTradeId": null,
+							"caseReferenceNumber": "ABC0710159",
+							"userInput": "RESOLVE WILL NOT HELP",
+							"freeFormType": "CREATE WWW",
+							"freeFormSubType": "How would you describe what you do",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+						}, {
+							"id": 12898,
+							"kybTradeId": null,
+							"caseReferenceNumber": "ABC0710159",
+							"userInput": null,
+							"freeFormType": "CREATE WWW",
+							"freeFormSubType": "Business Website",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+						}, {
+							"id": 12899,
+							"kybTradeId": null,
+							"caseReferenceNumber": "ABC0710159",
+							"userInput": null,
+							"freeFormType": "CREATE WWW",
+							"freeFormSubType": "Who are your organisation",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+						}
+					],
+					"genericDetails": [{
+							"id": 5331,
+							"caseReferenceNumber": "ABC0710159",
+							"serviceType": "QQQ",
+							"serviceTrigger": "QQQ-Change in Regulations",
+							"fieldName": "isTransactionAnalysisSatisfied",
+							"fieldValue": "false",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16",
+							"logicalKey": "ABC07101595331"
+						}, {
+							"id": 5330,
+							"caseReferenceNumber": "ABC0710159",
+							"fieldName": "rIndicator",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16",
+							"logicalKey": "ABC07101595330"
+						}
+					],
+					"declarations": [],
+					"injectionsOfFunds": [],
+					"internationalTrades": [],
+					"taxDetails": [{
+							"id": 6900,
+							"location": "SQAA",
+							"tin": "12345678",
+							"lastUpdateUser": "TEST",
+							"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+						}
+					],
+					"lastUpdateUser": "TEST",
+					"lastUpdateTimeStamp": "2009-01-01 14:05:16",
+					"bin": "10000000",
+					"products": ["BusinesS"],
+					"persona": "G1",
+					"portfolioCode": "25057",
+					"franchise": "Commercial Banking"
+				}
+			],
+			"risks": [{
+					"id": 10116,
+					"caseReferenceNumber": "ABC0710159",
+					"category": "EEEW",
+					"score": "SAQ",
+					"result": "Default",
+					"ruleId": "PAY5",
+					"lastUpdateUser": "TEST",
+					"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+				}, {
+					"id": 10117,
+					"caseReferenceNumber": "ABC0710159",
+					"category": "Industry",
+					"score": "5",
+					"result": "26",
+					"ruleId": "IN",
+					"lastUpdateUser": "TEST",
+					"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+				}, {
+					"id": 10118,
+					"caseReferenceNumber": "ABC0710159",
+					"category": "Product",
+					"score": "4.2",
+					"result": "Business Current Acc",
+					"ruleId": "PRO2",
+					"lastUpdateUser": "TEST",
+					"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+				}, {
+					"id": 10119,
+					"caseReferenceNumber": "ABC0710159",
+					"category": "BO",
+					"score": "2.a",
+					"result": "UNITED KINGDOM",
+					"ruleId": "AA",
+					"lastUpdateUser": "TEST",
+					"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+				}, {
+					"id": 10120,
+					"caseReferenceNumber": "ABC0710159",
+					"category": "1",
+					"score": "2.1",
+					"result": "UNITED KINGDOM",
+					"ruleId": "1",
+					"lastUpdateUser": "TEST",
+					"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+				}, {
+					"id": 10121,
+					"caseReferenceNumber": "ABC0710159",
+					"category": "SS",
+					"score": "2d",
+					"result": "UNITED KINGDOM",
+					"ruleId": "Q",
+					"lastUpdateUser": "TEST",
+					"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+				}, {
+					"id": 10122,
+					"caseReferenceNumber": "ABC0710159",
+					"category": "Risk",
+					"score": "21.6",
+					"result": "a",
+					"lastUpdateUser": "TEST",
+					"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+				}, {
+					"id": 10123,
+					"caseReferenceNumber": "ABC0710159",
+					"category": "Risk",
+					"result": "F",
+					"lastUpdateUser": "TEST",
+					"lastUpdateTimeStamp": "2009-01-01 14:05:16"
+				}
+			]
+		}
+	}
+
